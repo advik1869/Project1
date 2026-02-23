@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function calculateTotal()
+{
+    let q=document.getElementById('qty').value;
+    let p=document.getElementById('price').value;
+    document.getElementById('res').innerHTML="Rs."+p*q;
+}
+</script>
+<style>
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(153deg,#9873f0,#5388e6);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    background: linear-gradient(145deg,#ed74bb,#9457b3);
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.container input{
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.container button{
+    border-radius: 8px;
+}
+#res{
+    color: #fff200;
+    font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Price Calculator</h2>
+<input type="Quantity" name="" id="qty" placeholder="Enter Quantity:">
+<input type="price" name="" id="price" placeholder="Enter Price:">
+<div id="res"></div>
+<button onclick="calculateTotal()">calculate</button>
+</div>
+</body>
+</html>

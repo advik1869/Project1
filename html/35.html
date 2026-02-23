@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hotel booking </title>
+	<link rel="stylesheet" type="text/css" href="../css/35.css">
+	<script src="../js/35.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>HOTEL BOOKING </h2>
+		<input type="text" name="" id="name"placeholder="name:">
+		<div id="nameerror"></div>
+		<input type="tel" name="" id="contact"placeholder="contact number:">
+		<div id="contacterror"></div>
+		<div class="r">
+			<label>Room type:</label><br><br>
+			<input type="radio" name="room">AC
+			<input type="radio" name="room">non AC
+			<div id="roomerror"></div>
+		</div>
+		<div class="as">
+			<label>Additional services:</label><br><br>
+			<input type="checkbox" name="service">breakfast
+			<input type="checkbox" name="service">Airport pickup
+			<input type="checkbox" name="service">WIFI
+			<div id="serviceerror"></div>
+		</div>
+		<div class="t">
+			<input type="checkbox" id="terms"name="">I agree to <a href="#">Terms&Conditions</a>
+			<div id="termserror"></div>
+		</div>
+		<span id="res"></span>
+		<button onclick="return validate()">Submit</button>
+	</div>
+</body>
+</html>

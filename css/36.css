@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(153deg,#f58d7f,#f57fd4);
+}
+
+form{
+    width: 30%;
+    height: 40vh;
+    border-radius: 10px;
+    background: linear-gradient(153deg,#8856c4,#3276ed);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+form button{
+    width: 150px;
+    border-radius: 6px;
+}
+
+form .error{
+    color: darkred;
+    font-size: 25px;
+}
+
+input:focus{
+    background-color: #fff9c4;
+    border: 3px solid #f1c40f;
+    outline: none;
+}

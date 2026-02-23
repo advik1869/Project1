@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Name</title>
+	<script>
+		function myfunc()
+		{
+			let x=document.getElementById('name').value;
+			document.getElementById('demo').innerHTML="hello "+ x + " Welcome!"
+		}
+	</script>
+	<style>
+		body{
+			display: flex;
+			height: 100vh;
+			justify-content: center;
+			align-items: center;
+			background:linear-gradient(135deg,#f07b73,#73f0e1);
+		}
+		.container{
+			width: 30%;
+			display: flex;
+			flex-direction: column;
+			background-color: white;
+			height: 30vh;
+			justify-content: center;
+			align-items: center;
+			border-radius: 20px;
+			background:linear-gradient(135deg,#73f0e1,#f07b73);
+			box-shadow: 5px 5px 5px;
+		}
+		.container input,button{
+			margin-bottom: 10px;
+			border-radius: 3px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<input type="text" name="" id="name"placeholder="UserName:">
+		<div id="demo"></div>
+		<button onclick="myfunc()">submit</button>
+	</div>
+</body>
+</html>

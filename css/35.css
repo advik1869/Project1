@@ -1,0 +1,49 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(135deg, #654ea3, #eaafc8);
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	height:60vh;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 5px 5px;
+	border-radius: 10px;
+	background: linear-gradient(135deg, #5ee7df, #b490ca);
+}
+.container input[type="text"],input[type="tel"]{
+	margin-bottom: 10px;
+	width: 250px;
+	border-radius: 6px;
+	padding: 5px;
+}
+.r{
+	margin: 10px;
+}
+.as{
+	margin-bottom: 20px;
+}
+.r label{
+	margin-left: 5px;
+	color: #f4fc4c;
+	font-size: 25px;
+}
+.as label{
+	margin-left: 35px;
+	color: #f4fc4c;
+	font-size: 25px;
+}
+.t{
+	margin-bottom: 20px;
+}
+ button{
+	width: 120px;
+	border-radius: 4px;
+	padding: 5px;
+}
