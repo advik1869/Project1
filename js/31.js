@@ -30,6 +30,6 @@ function validate()
 		m.style.color='red';
 		return;
 	}
-	m.innerHTML="Registration succesfull";¡
-	m.style.color="green";¡
+	m.innerHTML="Registration succesfull";
+	m.style.color="green";
 }
